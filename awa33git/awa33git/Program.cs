@@ -18,6 +18,7 @@ namespace awa33git
 
             while (meny)
             {
+                Console.WriteLine("Bank of Martin Westfeldt");
                 Console.WriteLine();
                 Console.WriteLine("[I]nsättning");
                 Console.WriteLine("[U]ttag");
@@ -76,7 +77,7 @@ namespace awa33git
                             Console.WriteLine("Negativt värde, inget uttag");
                         break;
 
-                    case 'H':
+                    case 'S':
                         Console.WriteLine("Saldo: " + saldo);
                         break;
 
