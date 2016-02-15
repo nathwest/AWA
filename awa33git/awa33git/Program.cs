@@ -74,7 +74,7 @@ namespace awa33git
                             Console.WriteLine("Negativt värde, inget uttag");
                         break;
 
-                    case 'H':
+                    case 'S':
                         Console.WriteLine("Saldo: " + saldo);
                         break;
 
