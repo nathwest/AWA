@@ -18,7 +18,7 @@ namespace awa33git
 
             while (meny)
             {
-                Console.WriteLine("--------------------------------");
+                Console.WriteLine("--------------------------------"); //test
                 Console.WriteLine("Bank of Martin Westeros");
                 Console.WriteLine();
                 Console.WriteLine("[I]nsättning");
