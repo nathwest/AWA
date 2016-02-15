@@ -35,7 +35,7 @@ namespace awa33git
                         Console.WriteLine("Hur mycket vill du sätta in? ");
                         insattning = Convert.ToInt32(Console.ReadLine());
 
-                        if (insattning > 0)
+                        if (insattning > 50)
                         {
                             Console.WriteLine("Insättning: " + insattning);
                             saldo = saldo + insattning;
@@ -74,7 +74,7 @@ namespace awa33git
                             Console.WriteLine("Negativt värde, inget uttag");
                         break;
 
-                    case 'S':
+                    case 'H':
                         Console.WriteLine("Saldo: " + saldo);
                         break;
 
