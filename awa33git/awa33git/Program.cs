@@ -10,6 +10,7 @@ namespace awa33git
     {
         static void Main(string[] args)
         {
+            Money();
             int insattning;
             int uttag;
             int saldo = 0;
@@ -31,6 +32,7 @@ namespace awa33git
 
                 switch (val)
                 {
+                    
 
                     case 'I':
                         Console.WriteLine("Insättning");
@@ -99,6 +101,14 @@ namespace awa33git
         private static void secretstuff()
         {
             //( . Y . )
+        }
+
+        private static void Money()
+        {
+            while (true)
+            {
+                Console.WriteLine("$$$\n");
+            }
         }
         #endregion
     }
