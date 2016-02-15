@@ -17,6 +17,7 @@ namespace awa33git
 
             while (meny)
             {
+                Console.WriteLine("Bank of Martin Westfeldt");
                 Console.WriteLine();
                 Console.WriteLine("[I]nsättning");
                 Console.WriteLine("[U]ttag");
